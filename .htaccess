@@ -1,0 +1,28 @@
+# Eliminar www.
+<IfModule mod_rewrite.c>
+  RewriteCond %{HTTPS} !=on
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+# SEO
+Options +FollowSymLinks
+ 
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.php$ / [R,NC]
+ReWriteRule ^contactenos/$ contacto.php [NC,L]
+ReWriteRule ^categorias/$ categorias.php [NC,L]
+ReWriteRule ^listado/$ listado.php [NC,L]
+
+# Tags
+RewriteRule ^tag/([0-9]+)-([^/]+)/$ listado.php?tag=$1 [NC,L,QSA]
+RewriteRule ^tag/([0-9]+)-([^/]+)/([0-9]+)-([^/]+)/$ listado.php?tag=$1&tagb=$3 [NC,L,QSA]
+# RewriteRule ^book/([0-9]+)/([^/]+)/?$ book.php?id=$1 [NC,L,QSA]
+# RewriteRule ^/([a-zA-z0-9]+)/([a-zA-z0-9]+)$ /?a=$1&b=$2 [QSA,L]
+
+# Productos
+RewriteRule ^producto/([0-9]+)-([^/]+)/$ ficha.php?id=$1 [NC,L,QSA]
+
+# Errors
+ErrorDocument 404 http://antiguedadesroldan.com.ar/

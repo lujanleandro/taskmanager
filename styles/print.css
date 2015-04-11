@@ -1,0 +1,34 @@
+/* CSS Document */
+
+/*************************************************/
+/* GENERALS */
+
+body{
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size:11px;
+	background-color:#fff;
+	margin:0; padding:0;
+}
+	
+
+#wrapper{
+	background:none;
+	width:auto;
+}
+
+#wrapper #header{display:none;}
+
+#wrapper #footer .notranslate{display:none;}
+
+#wrapper .sideBox{display:none;}
+
+#wrapper .banner-slide{display:none;}
+
+#wrapper #sideBar{display:none;}
+
+#wrapper .imgsContainer{display:none;}
+
+#wrapper .container_border{display:none;}
+
+
+
+/*************************************************/

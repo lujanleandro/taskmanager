@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2014 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="facebook-circled" unicode="&#xe800;" d="m480 830q200 0 340-140t140-340q0-198-140-339t-340-141-340 141-140 339q0 200 140 340t340 140z m114-330l0 78-72 0q-44 0-74-33t-30-81l0-44-76 0 0-74 76 0 0-222 86 0 0 222 90 0 0 74-90 0 0 52q0 28 18 28l72 0z" horiz-adv-x="960" />
+<glyph glyph-name="flag-circled" unicode="&#xe801;" d="m0 350q0 207 147 354t353 146 354-146 146-354-146-354-354-146-353 146-147 354z m217-281l76 0 0 258q64 17 117 5t105-34 93-39 88-11 87 45l0 303q-62-39-124-42t-106 17-105 40-106 20q-63 2-125-35l0-527z" horiz-adv-x="1000" />
+<glyph glyph-name="pinterest-circled" unicode="&#xe802;" d="m480 830q200 0 340-140t140-340q0-198-140-339t-340-141-340 141-140 339q0 200 140 340t340 140z m32-592q82-8 128 64t34 162q-10 72-74 110t-146 28q-66-8-117-56t-53-118q-4-100 70-116 10 24 9 33t-10 24-11 27q-14 96 78 144t158-18q48-48 20-148t-98-86q-40 8-33 54t24 86-21 60q-42 18-65-33t1-89q-4-20-21-83t-18-87 1-98q52 38 78 172 46-30 66-32z" horiz-adv-x="960" />
+</font>
+</defs>
+</svg>
