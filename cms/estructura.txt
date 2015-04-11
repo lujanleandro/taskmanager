@@ -1,0 +1,9 @@
+
+Estructura de cms
+
+Clases
+Configuracion
+Includes -> templates, styles, scripts, imgs
+Modulos
+UploadedFiles
+
